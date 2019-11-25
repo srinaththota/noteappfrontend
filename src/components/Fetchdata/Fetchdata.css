@@ -1,0 +1,10 @@
+.design{
+    border-radius: 12px;
+    width: 220px;
+    background-color: aqua;
+}
+.messagestyle{
+    float: left;
+    width: 65%;
+    position:absolute;
+}

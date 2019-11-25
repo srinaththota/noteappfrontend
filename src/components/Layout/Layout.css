@@ -1,0 +1,39 @@
+.header{
+    background-color: rgb(124, 127, 128);
+    border:2px solid white;
+    text-align: center;
+    font-family:cursive;
+    font-size: 4rem;
+    height: 15vh;
+    color: black;
+    grid-area: inherit;
+}
+.container{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 33em auto fit-content(8rem);   
+}
+.column1{
+    background-color: beige;
+    border: 1px solid white;
+    bottom: 0rem;
+    position: relative;
+    text-align: center;
+}
+.column2{
+    background-color:wheat;
+    text-align: center;
+    border: 1px solid white;
+    position: relative;
+}
+
+.footer{
+    background-color: rgb(124, 127, 128);
+    border:2px solid white;
+    text-align: center;
+    font-family:cursive;
+    font-size: 2rem;
+    height: 10vh;
+    color: black;
+    grid-area: inherit;
+}

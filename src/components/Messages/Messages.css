@@ -1,0 +1,19 @@
+.note{
+    width: 20%;
+  height: 110px;
+  padding: 22px;
+  margin:10px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: #e8ee93;
+  font-size: 16px;
+  resize: none;
+  position: relative;
+  display: grid;
+}
+
+.displaycontent{
+    display:flex;
+    flex-direction: row;
+    grid-template-columns: auto auto auto;
+}

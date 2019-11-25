@@ -1,0 +1,29 @@
+.ulstyle{
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.listyle{
+    display: inline;
+    padding:10px;
+    text-decoration: none;
+    
+  }
+  .linkstyle{
+    display: inline;
+    padding: 8px;
+    color:black;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+  }
+  .linkstyle:hover{
+    background-color: wheat;
+  }
+  .displaycontent{
+    display: -moz-grid-line;
+    grid-template-columns: none;
+    justify-items: stretch;
+  }
