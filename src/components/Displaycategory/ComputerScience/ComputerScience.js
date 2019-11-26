@@ -22,7 +22,9 @@ class ComputerScience extends Component{
          }
         
     });
-    this.state.messagesLoaded=messages;
+    this.setState({
+        messagesLoaded:messages  
+    })
 }
         
         return(

@@ -15,7 +15,9 @@ class Maths extends Component{
             return null
         }
         });
-        this.state.messagesLoaded=messages;
+        this.setState({
+            messagesLoaded:messages  
+        })
     }
         return(
             <div>{this.state.messagesLoaded}</div>
